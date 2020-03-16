@@ -31,6 +31,7 @@ public class first {
     void addedge(int source,int destination)
     {
         graph[source-1].addFirst(destination-1);
+        System.out.println();
     }
 
 
